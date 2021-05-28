@@ -64,7 +64,7 @@ module Blazer
     # avoid passing variable params to url helpers
     # (known unsafe parameters are removed, but still not ideal)
     def self.query_url(id)
-      Blazer::Engine.routes.url_helpers.query_url(id, ActionMailer::Base.default_url_options)
+      Blazer::Engine.routes.url_helpers.query_url(id, Blazer::Mailer.default_url_options)
     end
 
     def self.post(url, payload)
