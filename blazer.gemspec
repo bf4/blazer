@@ -20,7 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activerecord", rails_version
   spec.add_dependency "actionpack", rails_version # actioncontroller
   spec.add_dependency "activejob", rails_version
-  spec.add_dependency "actionmailer", rails_version
   spec.add_dependency "chartkick", ">= 3.2"
   spec.add_dependency "safely_block", ">= 0.1.1"
 end
